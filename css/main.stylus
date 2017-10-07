@@ -1,18 +1,20 @@
 body
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles-backgound.jpg")
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
   background-size cover
   background-repeat no-repeat
+  min-height 100%
   background-attachment absolute
-  background-position left top
+  background-color #075691
+
+.container-fluid
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
+  background-size cover
+  background-repeat no-repeat
+  min-height 100%
+  background-attachment absolute
   background-color #075691
 
 footer
-  // background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles-backgound.jpg")
-  // background-size cover
-  // background-repeat no-repeat
-  // background-attachment absolute
-  // background-position left top
-  // background-color #075691
   font-family Raleway
   color #fff
   height 500px

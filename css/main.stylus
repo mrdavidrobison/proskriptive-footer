@@ -2,17 +2,18 @@ body
   background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
   background-size cover
   background-repeat no-repeat
-  min-height 100%
   background-attachment absolute
   background-color #075691
+  min-height 100%
 
 .container-fluid
   background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
   background-size cover
   background-repeat no-repeat
-  min-height 100%
   background-attachment absolute
   background-color #075691
+  min-height 100%
+  margin-top 4em
 
 footer
   font-family Raleway
@@ -20,14 +21,9 @@ footer
   height 500px
   cursor default
 
-.social-media
-  padding-top 3em
-  text-align center
-  padding-bottom 3em
-
 .fa
-  margin 1.4em
-  font-size 26px
+  margin 0.5em
+  font-size 2em
   border 2px
   color #e9e5da
   background-size cover
@@ -54,8 +50,7 @@ footer
       transition all 0.2s ease-in-out
 
 .row
-  margin-right 27%
-  margin-left 27%
+  margin 0% 10% 0% 10%
   text-align center
 
 .section
@@ -65,7 +60,7 @@ footer
 .bc-link
   color #fff
   line-height 3em
-  font-size 12px
+  font-size 1em
   text-decoration none
   &:hover
     text-decoration none

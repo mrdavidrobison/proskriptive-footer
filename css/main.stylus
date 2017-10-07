@@ -1,0 +1,107 @@
+body
+  background-color #000
+
+footer
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("http://www.stormyourmarket.com/wp-content/uploads/2017/08/Port_and_lighthouse_overnight_storm_lightning_in_Port-la-Nouvelle.jpg")
+  background-size cover
+  background-repeat no-repeat
+  background-attachment absolute
+  background-position left top
+  font-family Raleway
+  color #fff
+  height 500px
+  cursor default
+
+.social-media
+  padding-top 3em
+  text-align center
+  padding-bottom 3em
+
+.fa
+  margin 1.4em
+  font-size 26px
+  border 2px
+  color #e9e5da
+  background-size cover
+  background-repeat no-repeat
+  &.fa-facebook
+    &:hover
+      text-decoration none
+      color #fc0
+      transition all 0.2s ease-in-out
+  &.fa-envelope
+    &:hover
+      text-decoration none
+      color #fc0
+      transition all 0.2s ease-in-out
+  &.fa-linkedin
+    &:hover
+      text-decoration none
+      color #fc0
+      transition all 0.2s ease-in-out
+
+.row
+  margin-right 27%
+  margin-left 27%
+  text-align center
+
+.section
+  margin-top 2.5em
+  margin-bottom 2.5em
+
+.bc-link
+  color #fff
+  line-height 3em
+  font-size 12px
+  text-decoration none
+  &:hover
+    color #fc0
+    transition all 0.1s ease-in-out
+
+.copyright-country
+  margin-top 3em
+  font-weight 300
+  letter-spacing 0.5px
+  text-align left
+  font-size 10px
+  display inline-block
+  margin-left 29.5%
+
+#copyright-year
+  margin-top 3em
+  font-weight 300
+  letter-spacing 0.5px
+  text-align right
+  font-size 10px
+  display inline-block
+  position absolute
+  right 70px
+  margin-right 27%
+
+@media (max-width: 1360px)
+  .row
+    margin-left 20%
+    margin-right 20%
+  .section
+    margin-top 2em
+    margin-right 0em
+    margin-left 0em
+    margin-bottom 4em
+  .copyright-area
+    margin-bottom 2em
+  .copyright-country
+    display block
+    text-align center
+    left 0px
+    margin auto
+  #copyright-year
+    position relative
+    display block
+    text-align center
+    right 0px
+    margin auto
+  .social-media
+    padding-bottom 3em
+  footer
+    height 100%
+    background-attachment fixed

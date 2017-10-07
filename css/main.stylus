@@ -1,12 +1,18 @@
 body
-  background-color #000
-
-footer
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("http://www.stormyourmarket.com/wp-content/uploads/2017/08/Port_and_lighthouse_overnight_storm_lightning_in_Port-la-Nouvelle.jpg")
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles-backgound.jpg")
   background-size cover
   background-repeat no-repeat
   background-attachment absolute
   background-position left top
+  background-color #075691
+
+footer
+  // background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles-backgound.jpg")
+  // background-size cover
+  // background-repeat no-repeat
+  // background-attachment absolute
+  // background-position left top
+  // background-color #075691
   font-family Raleway
   color #fff
   height 500px
@@ -27,17 +33,22 @@ footer
   &.fa-facebook
     &:hover
       text-decoration none
-      color #fc0
+      color #5681A4
       transition all 0.2s ease-in-out
+  &.fa-twitter
+    &:hover
+      text-decoration none
+      color #5681A4
+      transition all 0.2s ease-in-out      
   &.fa-envelope
     &:hover
       text-decoration none
-      color #fc0
+      color #5681A4
       transition all 0.2s ease-in-out
   &.fa-linkedin
     &:hover
       text-decoration none
-      color #fc0
+      color #5681A4
       transition all 0.2s ease-in-out
 
 .row
@@ -55,7 +66,8 @@ footer
   font-size 12px
   text-decoration none
   &:hover
-    color #fc0
+    text-decoration none
+    color #5681A4
     transition all 0.1s ease-in-out
 
 .copyright-country

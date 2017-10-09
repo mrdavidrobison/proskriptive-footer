@@ -13,9 +13,12 @@ html(lang='en')
   body
   footer
     .container-fluid   
+      .company-logo
+        a(href='https://proskriptive.com')
+          img(src='logo.png' width='300px' height='54px' style='margin: 5em 0% 3em 40%;')      
       .row
         .col
-          h3
+          h2
             | About Us
             br
           .section
@@ -26,7 +29,7 @@ html(lang='en')
             a.bc-link(href='https://proskriptive.com/our-team/') Our Team
             br
         .col
-          h3
+          h2
             | Media
             br
           .section
@@ -37,7 +40,7 @@ html(lang='en')
             a.bc-link(href='https://proskriptive.com/newsblog/press-releases/') Press Releases
             br
         .col
-          h3
+          h2
             | Follow
             br
           .section
@@ -48,7 +51,7 @@ html(lang='en')
             a.fa.fa-linkedin(href='https://www.linkedin.com/company/3801214/') 
             br            
         .col
-          h3
+          h2
             | Contact
             br
           .section.contact-us
@@ -58,8 +61,11 @@ html(lang='en')
             ul (208) 629 - 7992  
             ul info@proskriptive.com
       .row 
-        .col
-          .row
-            .copyright-year          
-              .footer-nav 
-                a(href='https://proskriptive.com/terms-of-use/') Terms Of Use &nbsp | &nbsp Privacy Policy &nbsp | &nbsp Site Map
+        .footer-bottom   
+          a(href='https://proskriptive.com/terms-of-use/') Terms Of Use 
+          &nbsp | &nbsp 
+          a(href='') Privacy Policy 
+          &nbsp | &nbsp 
+          a(href='') Site Map
+          &nbsp           
+          #copyright-year 

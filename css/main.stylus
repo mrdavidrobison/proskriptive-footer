@@ -1,116 +1,104 @@
-body
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
-  background-size cover
-  background-repeat no-repeat
-  background-attachment absolute
-  background-color #075691
-  min-height 100%
+.bg-img
+  background-image url('https://proskriptive.com/wp-content/uploads/2017/06/home_slide.jpg')
 
+body
+  font-family Raleway !important
+
+ul
+  &.slimmenu
+    li
+      a
+        display block
+        padding 10px 10px 10px 10px
+        color white
+        font-size .9em
+        font-family Raleway
+
+.pro-button
+  a
+    &:hover
+      background rgb(118, 59, 119) !important 
+      color #fff !important
+
+  
 .container-fluid
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.8)), url("bubbles.jpg")
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
   background-size cover
   background-repeat no-repeat
   background-attachment absolute
-  background-color #075691
+  background-color #4E8DB6
   min-height 100%
-  margin-top 4em
+  padding 0em 12em 0em 12em
 
 footer
   font-family Raleway
   color #fff
-  height 500px
+  height 100%
   cursor default
+  padding 0px !important
+
+.company-logo
+  text-align center
+  padding 4em 0em 3em 0em
 
 .fa
-  margin 0.5em
-  font-size 2em
-  border 2px
+  margin .8em
+  font-size 1.5em
   color #e9e5da
   background-size cover
   background-repeat no-repeat
-  &.fa-facebook
-    &:hover
-      text-decoration none
-      color #5681A4
-      transition all 0.2s ease-in-out
   &.fa-twitter
     &:hover
       text-decoration none
-      color #5681A4
+      color #789AB3
       transition all 0.2s ease-in-out      
   &.fa-envelope
     &:hover
       text-decoration none
-      color #5681A4
+      color #789AB3
       transition all 0.2s ease-in-out
   &.fa-linkedin
     &:hover
       text-decoration none
-      color #5681A4
+      color #789AB3
       transition all 0.2s ease-in-out
 
-.row
-  margin 0% 10% 0% 10%
+.col-md-3
   text-align center
-
-.section
-  margin-top 2.5em
-  margin-bottom 2.5em
 
 .bc-link
   color #fff
   line-height 3em
-  font-size 1em
+  font-size .7em
   text-decoration none
   &:hover
     text-decoration none
-    color #5681A4
+    color #789AB3
     transition all 0.1s ease-in-out
 
-.copyright-country
-  margin-top 3em
-  font-weight 300
-  letter-spacing 0.5px
-  text-align left
-  font-size 10px
-  display inline-block
-  margin-left 29.5%
+.contact
+  text-align center
+  padding-top 1.3em
+  font-size 1em
+  line-height 1.3em
+
+.social
+  float right
+  margin-right -3em
+  margin-top 3.5em
+
+.sub-section
+  margin-top 2em  
+
+.footer-bottom
+  margin 1.7em 0em 0em 5em
+  font-size .7em
+  a
+    &:hover
+      text-decoration none
+      color #789AB3
+      transition all 0.1s ease-in-out
 
 #copyright-year
-  margin-top 3em
-  font-weight 300
-  letter-spacing 0.5px
-  text-align right
-  font-size 10px
-  display inline-block
-  position absolute
-  right 70px
-  margin-right 27%
-
-@media (max-width: 1360px)
-  .row
-    margin-left 20%
-    margin-right 20%
-  .section
-    margin-top 2em
-    margin-right 0em
-    margin-left 0em
-    margin-bottom 4em
-  .copyright-area
-    margin-bottom 2em
-  .copyright-country
-    display block
-    text-align center
-    left 0px
-    margin auto
-  #copyright-year
-    position relative
-    display block
-    text-align center
-    right 0px
-    margin auto
-  .social-media
-    padding-bottom 3em
-  footer
-    height 100%
-    background-attachment fixed
+  float right
+  margin-bottom 2em

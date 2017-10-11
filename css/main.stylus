@@ -42,8 +42,18 @@ ul
   a
     padding 1.4em !important
 
-.sto-button
-  margin-left 1em
+.actual-button
+  font-size 1em !important
+  margin-left: 23em !important;
+  padding: 1em !important;
+  width: 300px;
+  border-radius: 3em !important;
+  border-width: 0px !important;
+  background #471F48 !important 
+  color #fff !important
+  &:hover
+    background rgb(118, 59, 119) !important 
+    color #fff !important
 
 .container
   margin-top -1.75em
@@ -70,11 +80,16 @@ ul
   text-align left
   color #fff
   line-height 2.4em
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
-  background-size cover
-  background-repeat no-repeat
-  background-attachment absolute
-  background-color #4E8DB6
+  background-color #1C466E
+
+.center-this
+  text-align center
+
+.black-text
+  color #000
+
+.white-text
+  color #fff
 
 footer
   font-family Raleway

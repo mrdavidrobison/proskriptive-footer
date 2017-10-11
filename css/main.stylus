@@ -72,7 +72,7 @@ ul
   padding 0em 12em 0em 12em
 
 .rigor-bg
-  background-image url('rigor-laptop-analytic2.jpg')
+  background-image url('rigor-laptop-analytic.jpg')
   background-size cover
   background-repeat no-repeat  
 

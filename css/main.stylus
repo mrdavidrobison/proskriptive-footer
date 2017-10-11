@@ -49,10 +49,10 @@ ul
   width: 300px;
   border-radius: 3em !important;
   border-width: 0px !important;
-  background #471F48 !important 
+  background #752d77 !important 
   color #fff !important
   &:hover
-    background rgb(118, 59, 119) !important 
+    background #843687 !important 
     color #fff !important
 
 .container
@@ -76,11 +76,17 @@ ul
   background-size cover
   background-repeat no-repeat  
 
-.outcomes  
+.outcomes 
+  background-image url('performance-laptop-analytic.jpg')
   text-align left
   color #fff
   line-height 2.4em
   background-color #1C466E
+
+.performance
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
+  background-size cover
+  background-repeat no-repeat 
 
 .center-this
   text-align center
@@ -94,7 +100,7 @@ ul
 footer
   font-family Raleway
   color #fff
-  height 100%
+  height 72%
   cursor default
   padding 0px !important
 

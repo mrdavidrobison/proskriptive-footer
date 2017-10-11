@@ -77,16 +77,18 @@ ul
   background-repeat no-repeat  
 
 .outcomes 
-  background-image url('performance-laptop-analytic.jpg')
+  background-image linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.1)) 
   text-align left
   color #fff
   line-height 2.4em
   background-color #1C466E
 
 .performance
-  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
+  background-image url('performance-laptop-analytic.jpg')
   background-size cover
   background-repeat no-repeat 
+  background-color #1C466E
+  color #fff
 
 .center-this
   text-align center
@@ -144,14 +146,13 @@ footer
     transition all 0.1s ease-in-out
 
 .contact
-  text-align center
-  padding-top 1.3em
-  font-size 1em
-  line-height 1.3em
+  text-align right
+  padding 1.3em 0em 0em 1em
+  font-size 1.2em
+  line-height 1.1em
 
 .social
-  float right
-  margin-right -3em
+  margin-right -2em
   margin-top 3.5em
 
 .sub-section

@@ -61,10 +61,20 @@ ul
   min-height 100%
   padding 0em 12em 0em 12em
 
-.outcomes
-  background-image url('outcomes-laptop-analytic.jpg')
+.rigor-bg
+  background-image url('rigor-laptop-analytic2.jpg')
   background-size cover
-  background-repeat no-repeat    
+  background-repeat no-repeat  
+
+.outcomes  
+  text-align left
+  color #fff
+  line-height 2.4em
+  background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
+  background-size cover
+  background-repeat no-repeat
+  background-attachment absolute
+  background-color #4E8DB6
 
 footer
   font-family Raleway
@@ -133,3 +143,7 @@ footer
   a
     &:hover
       transition all 0.1s ease-in-out
+
+@media (min-width: 768px)
+  .vc_col-sm-6 
+      width 100%

@@ -77,11 +77,10 @@ ul
   background-repeat no-repeat  
 
 .outcomes 
-  background-image linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.1)) 
   text-align left
   color #fff
   line-height 2.4em
-  background-color #1C466E
+  background-color #fff !important
 
 .performance
   background-image url('performance-laptop-analytic.jpg')

@@ -44,15 +44,16 @@ ul
 
 .actual-button
   font-size 1em !important
-  margin-left: 23em !important;
+  margin-left: 18em;
+  margin-top 1em
   padding: 1em !important;
-  width: 300px;
-  border-radius: 3em !important;
+  width: 200px;
+  border-radius: 2em !important;
   border-width: 0px !important;
-  background #752d77 !important 
+  background #004272 !important 
   color #fff !important
   &:hover
-    background #843687 !important 
+    background #1b669b !important 
     color #fff !important
 
 .container
@@ -86,7 +87,7 @@ ul
   background-color #fff !important
 
 .performance
-  background-image url('performance-laptop-analytic.jpg')
+  background #fff !important
   background-size cover
   background-repeat no-repeat 
   background-color #1C466E

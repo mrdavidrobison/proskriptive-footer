@@ -71,6 +71,9 @@ ul
   min-height 100%
   padding 0em 12em 0em 12em
 
+.home-bg
+  background-image url('https:'//'proskriptive.com/wp-content/uploads/2017/06/home_slide.jpg')
+
 .rigor-bg
   background-image url('rigor-laptop-analytic.jpg')
   background-size cover

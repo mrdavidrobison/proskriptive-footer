@@ -69,8 +69,7 @@ ul
   background-repeat no-repeat
   background-attachment absolute
   background-color #4E8DB6
-  min-height 100%
-  padding 0em 12em 0em 12em
+  padding 0em 10em 0em 10em
 
 .home-bg
   background-image url('https:'//'proskriptive.com/wp-content/uploads/2017/06/home_slide.jpg')
@@ -105,7 +104,6 @@ ul
 footer
   font-family Raleway
   color #fff
-  height 75%
   cursor default
   padding 0px !important
 
@@ -122,39 +120,27 @@ footer
   &.fa-twitter
     &:hover
       text-decoration none
-      color #4E8EB6
-      transition all 0.3s ease-in-out
-      transform scale(1.3)         
+      color #4E8EB6         
   &.fa-envelope
     &:hover
       text-decoration none
-      color #4E8EB6      
-      transition all 0.3s ease-in-out
-      transform scale(1.3)   
+      color #4E8EB6   
   &.fa-linkedin
     &:hover
       text-decoration none
-      color #4E8EB6
-      transition all 0.3s ease-in-out
-      transform scale(1.3)   
+      color #4E8EB6   
   &.fa-youtube-play
     &:hover
       text-decoration none
-      color #4E8EB6      
-      transition all 0.3s ease-in-out
-      transform scale(1.3)          
+      color #4E8EB6        
 
-.col-md-3
-  text-align center
-
-.three-column
-  margin-left 7em
-  width 60em
+.row
+  text-align center  
+  margin auto   
 
 .social
   width 350px
-  margin-top 2em
-  margin-left 13em  
+  margin-top 2em 
 
 .bc-link
   color #fff
@@ -164,20 +150,14 @@ footer
   &:hover
     text-decoration none
     color #4E8EB6
-    transition all 0.1s ease-in-out
+    transition all 0-.1s ease-in-out
 
 .contact
-  text-align left
-  padding 1.3em 0em 0em 1em
   font-size .9em
-  line-height 1.1em
-  margin-left 2em
-
-.sub-section
-  margin-top 0em  
+  line-height 1em 
+  margin-top 2em
 
 .footer-bottom
-  margin 0em 0em -100em 0em
   text-align center
   font-size .7em
   a
@@ -186,4 +166,8 @@ footer
 
 @media (min-width: 768px)
   .vc_col-sm-6 
-      width 100%
+    width 100%
+     
+@media (max-width: 892px)
+  .contact
+    margin-right -2.5em

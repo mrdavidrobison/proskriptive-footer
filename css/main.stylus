@@ -110,24 +110,39 @@ footer
   padding 3em 0em 2em 0em
 
 .fa
-  margin .8em
-  font-size 1.5em
-  color #e9e5da
-  background-size cover
-  background-repeat no-repeat
   &.fa-twitter
+    margin .8em
+    font-size 1.5em
+    color #e9e5da
+    background-size cover
+    background-repeat no-repeat    
     &:hover
       text-decoration none
       color #4E8EB6         
   &.fa-envelope
+    margin .8em
+    font-size 1.5em
+    color #e9e5da
+    background-size cover
+    background-repeat no-repeat      
     &:hover
       text-decoration none
       color #4E8EB6   
   &.fa-linkedin
+    margin .8em
+    font-size 1.5em
+    color #e9e5da
+    background-size cover
+    background-repeat no-repeat      
     &:hover
       text-decoration none
       color #4E8EB6   
   &.fa-youtube-play
+    margin .8em
+    font-size 1.5em
+    color #e9e5da
+    background-size cover
+    background-repeat no-repeat      
     &:hover
       text-decoration none
       color #4E8EB6        

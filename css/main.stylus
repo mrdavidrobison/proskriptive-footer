@@ -60,8 +60,7 @@ ul
   margin-top -1.75em
 
 #top-nav, .navbar-header
-  padding-top 1.8em
-  padding-bottom .4em
+  padding-top 1.4em
   
 .container-fluid
   background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))

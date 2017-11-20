@@ -151,7 +151,7 @@ footer
     transition all 0-.1s ease-in-out
 
 .three-column
-  width 950px
+  max-width 950px
 
 .contact
   font-size .9em
@@ -168,10 +168,6 @@ footer
 @media (min-width: 768px)
   .vc_col-sm-6 
     width 100%
-
-@media (max-width: 892px)
-  .three-column
-    width auto
 
 @media (max-width: 992px)
   .contact

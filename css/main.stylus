@@ -112,7 +112,7 @@ footer
 .fa
   &.fa-twitter
     margin .8em
-    font-size 1.5em
+    font-size 1.5em !important
     color #e9e5da
     background-size cover
     background-repeat no-repeat    
@@ -121,7 +121,7 @@ footer
       color #4E8EB6         
   &.fa-envelope
     margin .8em
-    font-size 1.5em
+    font-size 1.5em !important
     color #e9e5da
     background-size cover
     background-repeat no-repeat      
@@ -130,7 +130,7 @@ footer
       color #4E8EB6   
   &.fa-linkedin
     margin .8em
-    font-size 1.5em
+    font-size 1.5em !important
     color #e9e5da
     background-size cover
     background-repeat no-repeat      
@@ -139,7 +139,7 @@ footer
       color #4E8EB6   
   &.fa-youtube-play
     margin .8em
-    font-size 1.5em
+    font-size 1.5em !important
     color #e9e5da
     background-size cover
     background-repeat no-repeat      

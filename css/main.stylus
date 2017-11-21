@@ -44,12 +44,12 @@ ul
 
 .actual-button
   font-size 1em !important
-  margin-left: 18em;
+  margin-left 18em
   margin-top 1em
-  padding: 1em !important;
-  width: 200px;
-  border-radius: 2em !important;
-  border-width: 0px !important;
+  padding 1em !important
+  width 200px
+  border-radius 2em !important
+  border-width 0px !important
   background #004272 !important 
   color #fff !important
   &:hover
@@ -77,21 +77,43 @@ ul
   background-size cover
   background-repeat no-repeat  
 
-.outcomes 
-  text-align left
-  color #fff
+.outcomes-section
+  text-align center
+  margin 2em 0em 2em 0em
+  color #075691
   line-height 2.4em
-  background-color #fff !important
+  background-color #fff
 
-.performance
-  background #fff !important
+.performance-section
   background-size cover
   background-repeat no-repeat 
-  background-color #1C466E
-  color #fff
+  background-color #46769C
+  color #fff  
+  padding-left 0px !important
+  padding-right 0px !important
 
-.center-this
-  text-align center
+.performance-image-quote-right
+  margin 2em
+  max-width 1400px
+  display flex
+  float right
+
+.performance-image-quote-left
+  margin 2em 2em 0em 2em
+  max-width 1400px  
+  display flex
+  float left  
+
+.performance-image
+  border-color #fff 
+  height 400
+  border-style solid 
+  border-width 50px
+  border-radius 5px
+
+.performance-quote
+  font-family Raleway !important
+  margin 3em
 
 .black-text
   color #000

@@ -62,7 +62,7 @@ ul
 #top-nav, .navbar-header
   padding-top 1.4em
   
-.container-fluid
+#footer-container
   background-image linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,1))
   background-size cover
   background-repeat no-repeat

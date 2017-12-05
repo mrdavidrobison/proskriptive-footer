@@ -73,9 +73,7 @@ ul
   background-image url('https:'//'proskriptive.com/wp-content/uploads/2017/06/home_slide.jpg')
 
 .rigor-bg
-  background-image url('rigor-laptop-analytic.jpg')
-  background-size cover
-  background-repeat no-repeat  
+  background-color #666666
 
 .outcomes-section
   text-align center

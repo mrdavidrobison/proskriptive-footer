@@ -42,9 +42,8 @@ ul
   a
     padding 1.4em !important
 
-.actual-button
+.actual-button, .actual-button-right
   font-size 1em !important
-  margin-left 18em
   margin-top 1em
   padding 1em !important
   width 200px
@@ -55,6 +54,12 @@ ul
   &:hover
     background #1b669b !important 
     color #fff !important
+
+.actual-button
+  margin-right 10em
+
+.actual-button-right
+  margin-left 18em
 
 .container
   margin-top -1.75em

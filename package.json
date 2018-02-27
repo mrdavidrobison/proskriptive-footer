@@ -1,22 +1,22 @@
 {
-  "name": "bcFooter",
+  "name": "proskriptive-footer",
   "version": "1.0.0",
-  "description": "bcFooter",
+  "description": "proskriptive-footer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mrdavidrobison/bcFooter.git"
+    "url": "https://github.com/mrdavidrobison/proskriptive-footer.git"
   },
   "keywords": [],
   "author": "david robison",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrdavidrobison/bcFooter/issues"
+    "url": "https://github.com/mrdavidrobison/proskriptive-footer/issues"
   },
-  "homepage": "https://github.com/mrdavidrobison/bcFooter#readme",
+  "homepage": "https://github.com/mrdavidrobison/proskriptive-footer#readme",
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
